@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local datasets, checkpoints, and generated outputs can be very large.
+data/
+checkpoints/
+outputs/
+*.pth
+*.pt
+*.ckpt
+
+# Notebook and operating-system noise.
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
